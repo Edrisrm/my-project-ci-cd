@@ -1,0 +1,26 @@
+{
+  "name": "my-project-ci-cd",
+  "version": "1.0.0",
+  "description": "my-project-ci/cd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edrisrm/my-project-ci-cd.git"
+  },
+  "keywords": [],
+  "author": "adrian_edris_elvin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Edrisrm/my-project-ci-cd/issues"
+  },
+  "homepage": "https://github.com/Edrisrm/my-project-ci-cd#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
