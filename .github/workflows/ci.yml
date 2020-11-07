@@ -29,8 +29,7 @@ jobs:
     - run: npm run build --if-present
     
     - name: Build and Push Docker Image
-      uses: octokit/request-action@v2.x
-      id: create_check_run
+      uses: mr-smithers-excellent/docker-build-push@v4
       with:
         image: elvinlab/nodejs-image-demo
         registry: docker.io
