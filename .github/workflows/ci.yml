@@ -38,8 +38,4 @@ jobs:
       run: docker build -t elvinlab/nodejs-image-demo .
     - name: Push the tagged Docker image
       run: docker push elvinlab/nodejs-image-demo .
-    - name: Build the latest Docker image
-      run: docker build -t elvinlab/nodejs-image-demo:latest
-    - name: Push the latest Docker image
-      run: docker push elvinlab/nodejs-image-demo:latest
     
