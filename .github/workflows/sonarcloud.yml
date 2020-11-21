@@ -23,5 +23,5 @@ jobs:
       with:
         projectBaseDir: my-project-ci-cd
         args: >
-          -Dsonar.organization=Edris Ríos Morales
-          -Dsonar.projectKey=edrisrm
+          -Dsonar.organization=edrisrm
+          -Dsonar.projectKey=Edrisrm_my-project-ci-cd
