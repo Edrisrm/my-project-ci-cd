@@ -18,3 +18,10 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN_GIT }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+    - name: Analyze with SonarCloud
+      uses: sonarsource/sonarcloud-github-action@master
+      with:
+        projectBaseDir: my-project-ci-cd
+        args: >
+          -Dsonar.organization=Edris Ríos Morales
+          -Dsonar.projectKey=edrisrm
